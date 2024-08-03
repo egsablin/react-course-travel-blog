@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #F55A5A;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.header--img {
+  margin-right: 7px;
+  padding: 0;
+}
+
+.header--text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+section {
+  margin: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: row;
+  max-height: 168px;
+}
+
+.news--img {
+  width: 125px;
+  border-radius: 5px;
+}
+
+.news-context {
+  margin: 20px 0px 20px 20px;
+}
+
+.news--point {
+  width: 15px;
+}
+
+.news-location {
+  display: flex;
+  align-items: center;
+}
+
+.news--country {
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+margin-left: 4px;
+margin-right: 12px;
+}
+
+.news--locatioLink {
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+.news--title {
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+.news--dataRange {
+font-weight: 700;
+line-height: 12px;
+color: #2B283A;
+}
+
+.news--description {
+font-weight: 400;
+line-height: 150%;
+color: #2B283A;
+margin-top: 9px;
+}
